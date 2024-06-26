@@ -1,0 +1,65 @@
+{
+    "display": {
+        "min_x": -0.2,
+        "max_x": 2.1,
+        "min_z": -0.2,
+        "max_z": 1.3
+    },
+    "nodes": [
+        {
+            "x": 0,
+            "z": 0,
+            "restrained_x": true,
+            "restrained_z": true,
+            "restrained_phi": true
+        },
+        {
+            "x": 1,
+            "z": 0,
+            "restrained_x": false,
+            "restrained_z": false,
+            "restrained_phi": false
+        },
+        {
+            "x": 2,
+            "z": 1,
+            "restrained_x": true,
+            "restrained_z": true,
+            "restrained_phi": false
+        }
+    ],
+    "elements": [
+        {
+            "node_i": 1,
+            "node_k": 2,
+            "connection_type_i": "stiff",
+            "connection_type_k": "stiff",
+            "EA": 1,
+            "EI": 1,
+            "q_x": 0,
+            "q_z": 1,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        },
+        {
+            "node_i": 2,
+            "node_k": 3,
+            "connection_type_i": "moment_joint",
+            "connection_type_k": "stiff",
+            "EA": 1,
+            "EI": 1,
+            "q_x": 0,
+            "q_z": 0,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        }
+    ]
+}

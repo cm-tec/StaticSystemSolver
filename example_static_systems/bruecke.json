@@ -1,0 +1,173 @@
+{
+    "display": {
+        "min_x": -1,
+        "max_x": 19,
+        "min_z": -4.5,
+        "max_z": 12.5
+    },
+    "nodes": [
+        {
+            "x": 0,
+            "z": 0,
+            "restrained_x": false,
+            "restrained_z": false,
+            "restrained_phi": false
+        },
+        {
+            "x": 4,
+            "z": 0,
+            "restrained_x": false,
+            "restrained_z": false,
+            "restrained_phi": false
+        },
+        {
+            "x": 8,
+            "z": 0,
+            "restrained_x": false,
+            "restrained_z": false,
+            "restrained_phi": false
+        },
+        {
+            "x": 12,
+            "z": 0,
+            "restrained_x": true,
+            "restrained_z": true,
+            "restrained_phi": false
+        },
+        {
+            "x": 18,
+            "z": 0,
+            "restrained_x": false,
+            "restrained_z": false,
+            "restrained_phi": false
+        },
+        {
+            "x": 16,
+            "z": -3,
+            "restrained_x": true,
+            "restrained_z": true,
+            "restrained_phi": true
+        },
+        {
+            "x": 16,
+            "z": 12,
+            "restrained_x": false,
+            "restrained_z": false,
+            "restrained_phi": false
+        }
+    ],
+    "elements": [
+        {
+            "node_i": 1,
+            "node_k": 2,
+            "connection_type_i": "stiff",
+            "connection_type_k": "stiff",
+            "EA": 100000,
+            "EI": 20000,
+            "q_x": 0,
+            "q_z": 5,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        },
+        {
+            "node_i": 2,
+            "node_k": 3,
+            "connection_type_i": "stiff",
+            "connection_type_k": "stiff",
+            "EA": 100000,
+            "EI": 20000,
+            "q_x": 0,
+            "q_z": 5,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        },
+        {
+            "node_i": 3,
+            "node_k": 4,
+            "connection_type_i": "stiff",
+            "connection_type_k": "stiff",
+            "EA": 100000,
+            "EI": 20000,
+            "q_x": 0,
+            "q_z": 5,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        },
+        {
+            "node_i": 4,
+            "node_k": 5,
+            "connection_type_i": "stiff",
+            "connection_type_k": "stiff",
+            "EA": 100000,
+            "EI": 20000,
+            "q_x": 0,
+            "q_z": 5,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        },
+        {
+            "node_i": 6,
+            "node_k": 7,
+            "connection_type_i": "stiff",
+            "connection_type_k": "stiff",
+            "EA": 100000,
+            "EI": 20000,
+            "q_x": 0,
+            "q_z": 0,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        },
+        {
+            "node_i": 2,
+            "node_k": 7,
+            "connection_type_i": "moment_joint",
+            "connection_type_k": "moment_joint",
+            "EA": 100000,
+            "EI": 20000,
+            "q_x": 0,
+            "q_z": 0,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        },
+        {
+            "node_i": 3,
+            "node_k": 7,
+            "connection_type_i": "moment_joint",
+            "connection_type_k": "moment_joint",
+            "EA": 100000,
+            "EI": 20000,
+            "q_x": 0,
+            "q_z": 0,
+            "f_x_i": 0,
+            "f_z_i": 0,
+            "m_y_i": 0,
+            "f_x_k": 0,
+            "f_z_k": 0,
+            "m_y_k": 0
+        }
+    ]
+}
